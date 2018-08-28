@@ -1,4 +1,4 @@
-run: deque.cpp
-	g++ -std=c++11 deque.cpp -o deque
+run: test.cpp
+	g++ -std=c++11 test.cpp -o test
 clean:
-	rm -fr deque
+	rm -fr test
