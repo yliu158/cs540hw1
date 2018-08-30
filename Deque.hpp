@@ -1,7 +1,9 @@
 using namespace std;
-
+#ifndef INIT_SIZE
 #define INIT_SIZE 128
+#endif
 
+#ifndef Deque_DEFINE
 #define Deque_DEFINE(T)\
 	struct Deque_##T##_Iterator {\
 		int index;\
@@ -199,3 +201,4 @@ using namespace std;
 		}\
 		return true;\
 	}
+	#endif
